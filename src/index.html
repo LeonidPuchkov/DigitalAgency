@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Digital-Agency</title>
+</head>
+<body>
+    <header id="Home">
+        <div class="logo_img">
+            <img src="./icons/nav_logo.png" alt="logo_img">
+        </div>
+        
+        <div class="burger_menu">
+            <a  href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()"><img src="/src/icons/menu (1).svg" alt="" class="burger"></a>
+        </div>
+        <!-- <div>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
+        <nav class="menu" id="nav_menu">
+            <ul>
+                <li class="menu_item">
+                    <a href="#Home">Главная</a>
+                </li>
+                <li class="menu_item">
+                    <a href="#About_Us">О нас</a>
+                </li class="menu_item">
+                <li>
+                    <a href="#Services">Услуги</a>
+                </li>
+                <li class="menu_item">
+                    <a href="#Contacts">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+        <div id="nav_phones" class="contact_phones">
+            <a href="tel:380663816145" type="phone">+38(066)381 61 45</a>
+            <a href="tel:380966117229" type="phone">+38(096)611 72 29</a>
+        </div>
+        
+    </header>
+
+    <section class="main_bg">
+        <div class="container">
+            <div class="main_header">
+                <p>your best digital choice</p>
+                <h1>Разработка сайтов 
+                <br>
+                <span>любой сложности</span>
+                </h1>
+                <button class="btn">хочу такой же</button>
+            </div>
+
+            <div class="tab_wrapper">
+                <div class="tab">
+                    <button class="tablinks" onclick="openTab(event, 'web')">разработка сайтов</button>
+                    <button class="tablinks" onclick="openTab(event, 'soft')">разработка по</button>
+                    <button class="tablinks" onclick="openTab(event, 'seo')">seo продвижение</button>
+                </div>
+            
+                <div id="web" class="tabcontent">
+                        <h3>Web-Development</h3>
+                        <p>London is the capital city of England.</p>
+                </div>
+            
+                <div id="soft" class="tabcontent">
+                    <h3>Software-Development</h3>
+                    <p>Paris is the capital of France.</p> 
+                </div>
+            
+                <div id="seo" class="tabcontent">
+                    <h3>SEO-Optimization</h3>
+                    <p>Tokyo is the capital of Japan.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <section id="About_Us" class="about">
+            <div class="container">
+                    <img class="about__img" src="/src/img/Logo_Digital.jpg" alt="large_logo">
+                    <h2 class="title">
+                        О нас
+                    </h2>
+                    <p class="about__dscr"><span>Digital Choice</span> - уникальное digital-agency предоставляющее услуги во всех сферах интернет-рекламы, занимающееся онлайн и оффлайн продвижением, созданием сайтов и автоматизацией бизнеса. Мы специализируемся на комплексном создании и продвижении Вашего бизнеса в интернете.</p> 
+            
+
+                <div class="about__wrapper">
+                    <div class="about__item fadeInLeft wow">
+                        <img class="item__img" src="/src/icons/podium.svg" alt="podium">
+                        <h2 class="item__title">Ставим клиента<br>
+                            превыше всего</h2>
+                        <div class="item__line"></div>
+                        <p class="item__dscr">Конечной целью обращения каждого клиента к нам является увеличение продаж продвигаемого продукта и, соответственно, рост прибыли компании. Наша задача — сделать рекламное сообщение максимально эффективным</p>
+                    </div>
+                    <div class="about__item fadeInLeft wow delay-1s">
+                        <img class="item__img" src="/src/icons/teamwork.svg" alt="teamwork">
+                        <h2 class="item__title"> <br> Мы Digital-эксперты</h2>
+                        <div class="item__line"></div>
+                        <p class="item__dscr">Нельзя быть экспертом во всем! Поэтому мы собрали команду, в которой каждый сотрудник отвечает исключительно за ту часть работы, в чем он является экспертом</p>
+                    </div>
+                    <div class="about__item fadeInLeft wow delay-2s">
+                        <img class="item__img" src="/src/icons/growth-01.svg" alt="growth">
+                        <h2 class="item__title"><br> Работа на результат</h2>
+                        <div class="item__line"></div>
+                        <p class="item__dscr">Мы нацелены только на лучшие результаты. Именно поэтому мы используюем лучшие индустриальные и сетевые инструменты, а также собственные и инновационные решения для выведения и улучшения бизнеса наших клиентов</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="Services" class="service">
+            <div class="container">
+                <h2 class="title">Наши услуги</h2>
+                <p class="subtitle">Решаем любые задачи для вашего бизнеса</p>
+                <div class="service__wrapper">
+                    <div class="service__item">
+                        <div class="service__icons">
+                            <img class="service__img" src="/src/icons/1.svg" alt="icon">
+                            <img class="service__number" src="/src/icons/01.png" alt="number">
+                        </div>
+                        <h2 class="service__title">Разработка сайтов</h2>
+                        <p class="service__dscr">Мы занимаемся созданием сайтов, которые помогают развивать бизнес в онлайн. 
+                            Landing-page, корпоративные сайты, интернет-магазины и сервисы.</p>
+                    </div>
+                    <div class="service__item">
+                        <div class="service__icons">
+                            <img class="service__img" src="/src/icons/2.svg" alt="icon">
+                            <img class="service__number" src="/src/icons/02.png" alt="number">
+                        </div>
+                        <h2 class="service__title">Реклама в Facebook/Instagram</h2>
+                        <p class="service__dscr">Это создания релевантного и полезного контента для целевой аудитории, с целью увеличения узнаваемости, вовлеченности, а также продаж в бизнесе.</p>
+                    </div>
+                    <div class="service__item">
+                        <div class="service__icons">
+                            <img class="service__img" src="/src/icons/3.svg" alt="icon">
+                            <img class="service__number" src="/src/icons/03.png" alt="number">
+                        </div>
+                        <h2 class="service__title">SEO продвижение</h2>
+                        <p class="service__dscr">Контекстная реклама является одним из самых выгодных инструментов продвижения в интернете, так как Вы платите только за переходы на Ваш сайт.</p>
+                    </div>
+                    <div class="service__item">
+                        <div class="service__icons">
+                            <img class="service__img" src="/src/icons/4.svg" alt="icon">
+                            <img class="service__number" src="/src/icons/04.png" alt="number">
+                        </div>
+                        <h2 class="service__title">Разработка ПО</h2>
+                        <p class="service__dscr">Упрощение и автоматизация способны масштабировать любой бизнес. С помощью ботов Вы сможете увеличить количество заявок, время их обработки</p>
+                    </div>
+                    <div class="service__item">
+                        <div class="service__icons">
+                            <img class="service__img" src="/src/icons/5.svg" alt="icon">
+                            <img class="service__number" src="/src/icons/05.png" alt="number">
+                        </div>
+                        <h2 class="service__title">Дизайн</h2>
+                        <p class="service__dscr">Тесно переплетен со всеми департаментами агентства, и позволяет предлагать вам не просто качественныи, но и 
+                            оригинальныи продукт.</p>
+                    </div>
+                    <div class="service__item">
+                        <div class="service__icons">
+                            <img class="service__img" src="/src/icons/5-01.svg" alt="icon">
+                            <img class="service__number" src="/src/icons/06.png" alt="number">
+                        </div>
+                        <h2 class="service__title">Стратегия</h2>
+                        <p class="service__dscr">Стратегия - основа эффективной рекламной кампании. Выявление целевой аудитории (ЦА), сегментация, выбор инструментов и пропорций их использования</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="question_form">
+            <div class="container">
+                <h2 class="title white"><span>Хотите узнать как привлечь клиентов</span> <br>
+                    и получать постоянную прибыль?</h2>
+                <form action="">
+                    <input type="tel" id="phone" name="phone" placeholder="Введите ваш номер телефона">
+                    <button class="btn">Да хочу</button>
+                </form>
+            </div>
+        </section>
+        
+        <section class="info">
+            <div class="container">
+                <h2 class="title">ПОЧЕМУ ВЫ ДОЛЖНЫ ВЫБРАТЬ НАС?</h2>
+                <div class="info__wrapper">
+                    <div class="info__column">
+                        <div class="info__point">
+                            <img class="info__icon" src="/src/icons/target-01.svg" alt="target">
+                            <div class="info__text">
+                                <h3 class="info__title">Правильные цели</h3>
+                            <p class="info__dscr">Мы вникаем в суть Ваших бизнес- процессов, определяем направление работы и приступаем к аналитике.</p>
+                            </div>
+                        </div>
+                        <div class="info__point">
+                            <img class="info__icon" src="/src/icons/handshake.svg" alt="handshake">
+                            <div class="info__text">
+                                <h3 class="info__title">Понимание клиентов</h3>
+                                <p class="info__dscr">Благодаря собранным сведениям мы понимаем ваши сильные стороны и что вы можете предложить на рынке.</p>
+                            </div>
+                        </div>
+                        <div class="info__point">
+                            <img class="info__icon" src="/src/icons/like (1).svg" alt="like">
+                            <div class="info__text">
+                                <h3 class="info__title">Заботимся о клиентах
+                                </h3>
+                                <p class="info__dscr">После старта всех активностей мы внимательно следим за показателями и анализируем результаты.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info__column column2">
+                        <div class="scheme__wrapper">
+                                <!-- <div class="scheme__logo">
+                                    <img class="scheme__img"" src="/src/img/logo_radius.png" alt="logo">
+                                </div> -->
+                            <div class="scheme__info item1">
+                                <div class="scheme__number">45</div>
+                                <div class="scheme__title">клиентов</div>
+                            </div>
+                            <div class="scheme__info item2">
+                                <div class="scheme__number ">198</div>
+                                <div class="scheme__title">проектов</div>
+                            </div>
+                            <div class="scheme__info item3">
+                                <div class="scheme__number">10,364</div>
+                                <div class="scheme__title">часов в работе</div>
+                            </div>
+                            <div class="scheme__info item4">
+                                <div class="scheme__number">8</div>
+                                <div class="scheme__title">сотрудников</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="feedback">
+            <div class="container">
+                <h2 class="title white"><span>оСТАВЬТЕ Заявку</span></h2>
+                <form class="feedback__form" action="">
+                    <input class="contact_name" type="text" placeholder="Введите ваше имя">
+                    <input class="contact_phone" type="tel" id="phone" name="phone" placeholder="Введите ваш номер телефона">
+                    <input class="contact_email" type="email" id="email" placeholder="Введите ваш email">
+                    <textarea class="contact_textarea" placeholder="Ваше сообщение" type="textarea"></textarea>
+                    <button class="btn">Отправить</button>
+                </form>
+            </div>
+        </section>
+    <footer id="Contacts">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__nav">
+                    <ul>
+                        <li><a href="#Home"">Главная</a></li>
+                        <li><a href="#About_Us">О нас</a></li>
+                        <li><a href="#Services">Услуги</a></li>
+                        <li><a href="#Contacts">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer__about">
+                    <h3 class="footer__title">DIGITAL CHOICE</h3>
+                    <p class="footer__dscr">Digital Choice - уникальное digital-agency предоставляющее услуги во всех сферах интернет-рекламы, занимающееся онлайн и оффлайн продвижением. Наша специализация - комплексное продвижение в интернете, брендирование и оффлайн реклама.</p>
+                </div>
+                <div class="footer__contacts">
+                    <h3 class="footer__title">контакты</h3>
+                    <p class="footer__dscr">Ул.Старонаводницкая 13 <br>
+                        Киев, 03056<br>
+                        Украина<br>
+                        Телефон: +380966117229<br>
+                        Email: digitalchoiceo@gmail.com</p>
+                </div>
+                <div class="footer__map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2541.7697945831837!2d30.540644615730557!3d50.42676057947206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf0dbcf26093%3A0x9e9aeeef41d18bd0!2sStaronavodnytska%20St%2C%2013%2C%20Kyiv%2C%2002000!5e0!3m2!1sen!2sua!4v1586873494591!5m2!1sen!2sua" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="overlay">
+        <div class="modal" id="bannerpopup">
+            <div class="modal__close">&times;</div>
+            <form class="modal__form" action="">
+                <input class="modal_name" type="text" placeholder="Введите ваше имя">
+                <input class="modal_phone" type="tel" id="phone" name="phone" placeholder="Введите ваш номер телефона">
+                <button class="btn">Отправить</button>
+            </form>
+        </div>
+    </div>
+
+    <button id="call" data-modal="bannerpopup"></button>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="/src/js/wow.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
+
+
